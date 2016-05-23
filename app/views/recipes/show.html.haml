@@ -11,14 +11,14 @@
 					= @recipe.user.email
 
 	.row
-		.col-md-6
+		.col-md-4
 			#ingredients
 				%h2 Ingredients
 				%ul
 					- @recipe.ingredients.each do |ingredient|
 						%li= ingredient.name
 
-		.col-md-6
+		.col-md-8
 			#directions
 				%h2 Directions
 				%ul
